@@ -27,6 +27,8 @@ import { Link as ChakraLink } from "@chakra-ui/react";
 import "../../css/layoutDashboard.css";
 import "../../css/defaultDashboard.css";
 
+// first page
+
 import { signIn, signOut, useSession } from "next-auth/react";
 
 export function Layout({ children }: { children: React.ReactNode }) {
