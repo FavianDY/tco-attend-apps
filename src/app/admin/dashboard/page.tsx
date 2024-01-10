@@ -14,8 +14,6 @@ import {
   BreadcrumbSeparator,
 } from "@chakra-ui/react";
 import "../../css/dashboardPage.css";
-import { ChartBarKaryawan } from "@/components/charts/barChart";
-import { ChartPieKaryawan } from "@/components/charts/pieChart";
 import { useRouter } from "next/navigation";
 import { signIn, useSession } from "next-auth/react";
 import { useEffect } from "react";
@@ -69,17 +67,13 @@ export default function AdminDashboardPage() {
                   <Heading as="h4" size="md">
                     Bar Chart
                   </Heading>
-                  <div className="bar-chart">
-                    <ChartBarKaryawan />
-                  </div>
+                  <div className="bar-chart"></div>
                 </div>
                 <div className="pie-chart-container">
                   <Heading as="h4" size="md">
                     Pie Chart
                   </Heading>
-                  <div className="pie-chart">
-                    <ChartPieKaryawan />
-                  </div>
+                  <div className="pie-chart"></div>
                 </div>
               </div>
             </div>
