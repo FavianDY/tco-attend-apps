@@ -1,0 +1,43 @@
+{
+  "name": "tco-attend-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^2.1.1",
+    "@chakra-ui/layout": "^2.3.1",
+    "@chakra-ui/next-js": "^2.2.0",
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@prisma/client": "^5.9.1",
+    "@types/node": "20.11.5",
+    "@types/react": "18.2.48",
+    "@types/react-dom": "18.2.18",
+    "@vercel/postgres": "^0.7.2",
+    "axios": "^1.6.7",
+    "eslint": "8.56.0",
+    "eslint-config-next": "14.1.0",
+    "framer-motion": "^10.18.0",
+    "json-server": "^1.0.0-alpha.23",
+    "next": "^14.1.0",
+    "next-auth": "^4.24.5",
+    "react": "18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.1.0",
+    "sweetalert2": "^11.6.13",
+    "typescript": "5.3.3"
+  },
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "lint-staged": "^15.2.0",
+    "prisma": "^5.9.1",
+    "ts-node": "^10.9.2"
+  }
+}
