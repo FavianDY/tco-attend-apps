@@ -2,7 +2,7 @@ import { LinkBox, Stack, VStack } from "@chakra-ui/layout";
 import Box from "next-auth/providers/box";
 import { Text } from "@chakra-ui/layout";
 import { EditIcon, ExternalLinkIcon } from "@chakra-ui/icons";
-import { Link as NextLink } from "next/link";
+import { Link as NextLink } from "next/navigation";
 import { Link as ChakraLink } from "@chakra-ui/react";
 import "../app/css/defaultDashboard.css";
 
